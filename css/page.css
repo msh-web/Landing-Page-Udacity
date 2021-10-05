@@ -1,0 +1,87 @@
+
+
+/* Get Button to make styles on it by it's id*/
+#up{
+    
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: fixed;
+    bottom: 15px;
+    right:15px;
+   width: 60px;
+border: 1px solid gold;
+}
+#up:hover{
+    background-color: blue;
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 35em){
+    h1 {
+        font-size: 7em;
+        margin: 2em 4rem 1em;
+    }
+}
+
+@media only screen and (min-width: 35em){
+    .landing__container {
+        max-width: 50em;
+        padding: 4em;
+    }
+}
+/*This part of code to make the project fit the phone screen*/
+@media screen and (min-width:1px) and (max-width:700px) {
+    .landing__container {
+        max-width: 50em;
+        max-height:108em;
+        padding: 2.5em;
+        margin-top: 120px;
+    }
+}
+section {
+    position: relative;
+    min-height: 81vh;
+   
+}
+
+p {
+    font-size: 22px;
+}
+h2{
+    font-size: 28px;
+}
+
+nav  ul li{
+    display: inline-block;
+}
+.navbar__menu .menu__link {
+   
+    display: block;
+    padding: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar__menu .menu__link:hover {
+    background: #333;
+    color: #fff;
+    transition: ease 0.3s all;
+}
+/* Header Styles */
+.page__header {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+}
+/* Active section style*/
+.active{
+    background-color: black;
+    color:white;
+    font-weight: 600;
+}
+
+    
+    
